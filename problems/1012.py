@@ -31,13 +31,17 @@ for i in range(int(input())) :
   q = deque([])
 
   for j in range(K) :
+        
     m,n = map(int,input().split())
     field[m][n] = 1
+    
   for m in range(M) :
     for n in range(N) :
+        
       if field[m][n] and not visited[m][n] :
         B += 1
         visit(m,n)
+        
   print(B)
 
 

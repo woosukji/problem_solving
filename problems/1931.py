@@ -46,7 +46,7 @@ print(f(T))
 '''
 
 ''' 
-# time over = when modified to use 'while'. since O(n^2)
+# time over - when modified to use 'while'. since O(n^2)
 
 T = sorted(T, key=lambda x:x[1])
 acc = 0

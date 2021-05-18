@@ -22,6 +22,13 @@
 - [sol : DP(bit complex)](https://github.com/woosukji/problem_solving/blob/main/problems/1697.py)
 - 재귀로 최댓값이 나온다는 증명이 필요함. 잘 안될 경우 고려 못한 case가 있을 수 있다
 
+### [1764 듣보잡](https://www.acmicpc.net/problem/1764)
+- [sol : linear search](https://github.com/woosukji/problem_solving/blob/main/problems/1764.py)
+- string 간 대소비교 가능:
+```python
+'abc' < 'cba'    #True
+```
+
 ### [1931 회의실 배정](https://www.acmicpc.net/problem/1931)
-- [sol : linear search using cursor](https://github.com/woosukji/problem_solving/blob/main/problems/1931.py)
+- [sol : linear search](https://github.com/woosukji/problem_solving/blob/main/problems/1931.py)
 - O(n) 크기 데이터를 재귀로 전달하면 O(n^2) 가 된다. (반복문으로 바꾼다고 나아지는 게 아닌 듯)

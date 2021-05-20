@@ -1,6 +1,9 @@
 # 🥇 Problem Solving 🥇
 #### PS Solutions & Troubleshooting
 
+### [1003 피보나치 함수](https://www.acmicpc.net/problem/1003)
+- [sol : DP](https://github.com/woosukji/problem_solving/blob/main/problems/1003.py)
+
 ### [1012 유기농 배추](https://www.acmicpc.net/problem/1012)
 - [sol : BFS](https://github.com/woosukji/problem_solving/blob/main/problems/1012.py)
 - 고정 길이의 list를 할당 :

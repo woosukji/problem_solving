@@ -35,3 +35,6 @@
 ### [1931 회의실 배정](https://www.acmicpc.net/problem/1931)
 - [sol : linear search](https://github.com/woosukji/problem_solving/blob/main/problems/1931.py)
 - O(n) 크기 데이터를 재귀로 전달하면 O(n^2) 가 된다. (반복문으로 바꾼다고 나아지는 게 아닌 듯)
+
+### [7576 토마토](https://www.acmicpc.net/problem/7576)
+- [sol : BFS](https://github.com/woosukji/problem_solving/blob/main/problems/7576.py)

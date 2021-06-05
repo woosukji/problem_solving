@@ -21,6 +21,9 @@
 - 무조건 전체 경우를 재귀로 때려넣는다고 되는 게 아님!
 - edge case에서 recursive depth를 고려하자.
 
+### [1620 나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)
+- [sol : dictionary](https://github.com/woosukji/problem_solving/blob/main/problems/1620.py)
+
 ### [1697 숨바꼭질](https://www.acmicpc.net/problem/1697)
 - [sol : DP(bit complex)](https://github.com/woosukji/problem_solving/blob/main/problems/1697.py)
 - 재귀로 최댓값이 나온다는 증명이 필요함. 잘 안될 경우 고려 못한 case가 있을 수 있다
@@ -32,9 +35,24 @@
 'abc' < 'cba'    #True
 ```
 
+### [1927 최소 힙](https://www.acmicpc.net/problem/1927)
+- [sol : heap](https://github.com/woosukji/problem_solving/blob/main/problems/1927.py)
+- 문제에 따라 인덱스 1부터 시작하는 것이 편할 수 있다.
+
 ### [1931 회의실 배정](https://www.acmicpc.net/problem/1931)
 - [sol : linear search](https://github.com/woosukji/problem_solving/blob/main/problems/1931.py)
 - O(n) 크기 데이터를 재귀로 전달하면 O(n^2) 가 된다. (반복문으로 바꾼다고 나아지는 게 아닌 듯)
+
+### [2630 색종이 만들기](https://www.acmicpc.net/problem/2630)
+- [sol : DP](https://github.com/woosukji/problem_solving/blob/main/problems/2630.py)
+- multiple for-loop in list comprehension :
+```python
+list = [[1,2],[3,4]]
+flat = [ x for li in list for x in li ]  # [1,2,3,4]
+
+# for list flattening, you can try (note: super slow) :
+flat = sum(list, [])
+```
 
 ### [7576 토마토](https://www.acmicpc.net/problem/7576)
 - [sol : BFS](https://github.com/woosukji/problem_solving/blob/main/problems/7576.py)

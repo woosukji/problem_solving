@@ -35,7 +35,42 @@ for n in [*open(0)][1:]:
     if n == 0: print(pop())
     else: push(n)
 
+'''
+# should've count index from 1
 
+H = [0]
+
+def push(n):
+    
+    H.append(n)
+    cursor = len(H) - 1
+
+    while cursor > 1 and H[cursor//2] > n:
+        H[cursor] = H[cursor//2]
+        cursor //= 2
+
+    H[cursor] = n
+
+
+def pop():
+
+    if len(H) == 1: return 0
+    minimum, n, cursor = H[0], H.pop(), 1
+    if len(H) == 1: return minimum
+
+    while cursor*2 < len(H) and n > min(H[cursor*2 : cursor*2 + 2]):
+        smaller = cursor*2 if cursor*2 == len(H) - 1 or H[cursor*2] < H[cursor*2 + 1] else cursor*2 + 1
+        H[cursor], cursor = H[smaller], smaller
+
+    H[cursor] = n
+    return minimum
+
+
+for n in [*open(0)][1:]:
+    n = int(n[:-1])
+    if n == 0: print(pop())
+    else: push(n)
+'''
 '''
 # short coding trial - 110B
 

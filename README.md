@@ -21,9 +21,6 @@
 - 무조건 전체 경우를 재귀로 때려넣는다고 되는 게 아님!
 - edge case에서 recursive depth를 고려하자.
 
-### [1620 나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)
-- [sol : dictionary](https://github.com/woosukji/problem_solving/blob/main/problems/1620.py)
-
 ### [1697 숨바꼭질](https://www.acmicpc.net/problem/1697)
 - [sol : DP(bit complex)](https://github.com/woosukji/problem_solving/blob/main/problems/1697.py)
 - 재귀로 최댓값이 나온다는 증명이 필요함. 잘 안될 경우 고려 못한 case가 있을 수 있다

@@ -34,7 +34,7 @@
 
 ### [1927 최소 힙](https://www.acmicpc.net/problem/1927)
 - [sol : heap](https://github.com/woosukji/problem_solving/blob/main/problems/1927.py)
-- 문제에 따라 인덱스 1부터 시작하는 것이 편할 수 있다.
+- 문제에 따라 인덱스 1부터 시작하는 것이 편할 수 있다. 
 
 ### [1931 회의실 배정](https://www.acmicpc.net/problem/1931)
 - [sol : linear search](https://github.com/woosukji/problem_solving/blob/main/problems/1931.py)
